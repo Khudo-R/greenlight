@@ -25,4 +25,8 @@ Command to add "citext" extensions for case-insensitive character string type
 
 CREATE EXTENSION IF NOT EXISTS citext;
 
+DNS to connect 
 postgres://greenlight:postgreadmin4090@localhost/greenlight
+
+//nano ~/.bashrc
+export GREENLIGHT_DB_DSN
