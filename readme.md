@@ -46,6 +46,7 @@ migrate -version
 migrate -path=./migrations -database=$GREENLIGHT_DB_DSN up
 migrate -path ./migrations -database $GREENLIGHT_DB_DSN up
 migrate -path=./migrations -database=$GREENLIGHT_DB_DSN up
+migrate -path=./migrations -database=$GREENLIGHT_DB_DSN up
 
 if not working this command run commands below
 
